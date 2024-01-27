@@ -1,13 +1,13 @@
 # This Tools is usable tool for GitLab.
 
 #  For Set up.
-> npm install
-> npm run electron-start
+> npm install  
+> npm run electron-start  
 
 # src/config/Config.js
-> Watch code below. For your gitLab project, input the access token and project ID before set-up.
-> For security reasons, never include the access token and project ID.
-```
+> Watch code below. For your gitLab project, input the access token and project ID before set-up.  
+> For security reasons, never include the access token and project ID.  
+```javascript  
 // Config is now Dummy.
 
 export const END_POINT = "https://gitlab.com/api/v4/projects/"
