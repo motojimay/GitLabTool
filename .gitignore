@@ -1,0 +1,6 @@
+## General
+.DS_Store
+package-lock.json
+dist/
+build/
+node_modules/
