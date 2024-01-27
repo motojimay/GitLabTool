@@ -1,10 +1,12 @@
 # This Tools is usable tool for GitLab.
 
-#  For Set up.
-> npm install  
-> npm run electron-start  
+#  For set up.
+> $ touch src/config/Config.js  
+> ∟ And paste source code on created .js file (#see For Configuration below).  
+> $ npm install  
+> $ npm run electron-start  
 
-# src/config/Config.js
+# For GitLab configuration
 > Watch code below. For your gitLab project, input the access token and project ID before set-up.  
 > For security reasons, never include the access token and project ID.  
 ```javascript  
