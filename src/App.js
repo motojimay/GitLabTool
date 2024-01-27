@@ -5,13 +5,13 @@ import BranchList from './components/BranchList';
 import Member from './components/Member';
 import Merge from './components/Merge';
 import Setting from './components/Setting';
-import { ConfigDB } from './db/ConfigDB';
+// import { ConfigDB } from './db/ConfigDB';
 import { END_POINT, PROJECT_ID, BRANCH_LIST_URL, MEMBER_ALL_LIST_URL, MERGE_REQUEST_LIST_URL } from './config/Config';
 
 export default function App() {
 
   useEffect(() => {
-    ConfigDB.init();
+    // ConfigDB.init();
   }, [])
 
   let url = `${END_POINT}` + `${PROJECT_ID}`
